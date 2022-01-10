@@ -126,7 +126,7 @@ jobs:
         with:
           profile: minimal
           override: true
-          toolchain: stable
+          toolchain: nightly-2021-11-15
           target: ${{ matrix.settings.target }}
       - name: Generate Cargo.lock
         uses: actions-rs/cargo@v1
@@ -189,7 +189,7 @@ jobs:
             curl -qL https://www.npmjs.com/install.sh | sh
             npm install -g yarn
             curl https://sh.rustup.rs -sSf --output rustup.sh
-            sh rustup.sh -y --profile minimal --default-toolchain stable
+            sh rustup.sh -y --profile minimal --default-toolchain nightly-2021-11-15
             export PATH="/usr/local/cargo/bin:$PATH"
             echo "~~~~ rustc --version ~~~~"
             rustc --version
