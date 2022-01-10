@@ -1,3 +1,3 @@
-# `@napi-rs/package-template-linux-arm-gnueabihf`
+# `@lambdragon/lambdragon-rs-package-linux-arm-gnueabihf`
 
-This is the **armv7-unknown-linux-gnueabihf** binary for `@napi-rs/package-template`
+This is the **armv7-unknown-linux-gnueabihf** binary for `@lambdragon/lambdragon-rs-package`

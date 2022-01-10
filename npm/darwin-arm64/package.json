@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/package-template-darwin-arm64",
+  "name": "@lambdragon/lambdragon-rs-package-darwin-arm64",
   "version": "1.0.0",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "package-template.darwin-arm64.node",
+  "main": "lambdragon-rs-package.darwin-arm64.node",
   "files": [
-    "package-template.darwin-arm64.node"
+    "lambdragon-rs-package.darwin-arm64.node"
   ],
   "description": "Template project for writing node package with napi-rs",
   "keywords": [
@@ -27,6 +27,5 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
-  },
-  "repository": "git@github.com:napi-rs/package-template.git"
+  }
 }

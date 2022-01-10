@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/package-template-android-arm-eabi",
+  "name": "@lambdragon/lambdragon-rs-package-android-arm-eabi",
   "version": "1.0.0",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "package-template.android-arm-eabi.node",
+  "main": "lambdragon-rs-package.android-arm-eabi.node",
   "files": [
-    "package-template.android-arm-eabi.node"
+    "lambdragon-rs-package.android-arm-eabi.node"
   ],
   "description": "Template project for writing node package with napi-rs",
   "keywords": [
@@ -27,6 +27,5 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
-  },
-  "repository": "git@github.com:napi-rs/package-template.git"
+  }
 }

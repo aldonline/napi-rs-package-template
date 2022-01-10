@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/package-template-linux-arm-gnueabihf",
+  "name": "@lambdragon/lambdragon-rs-package-linux-arm-gnueabihf",
   "version": "1.0.0",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "package-template.linux-arm-gnueabihf.node",
+  "main": "lambdragon-rs-package.linux-arm-gnueabihf.node",
   "files": [
-    "package-template.linux-arm-gnueabihf.node"
+    "lambdragon-rs-package.linux-arm-gnueabihf.node"
   ],
   "description": "Template project for writing node package with napi-rs",
   "keywords": [
@@ -27,6 +27,5 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
-  },
-  "repository": "git@github.com:napi-rs/package-template.git"
+  }
 }
