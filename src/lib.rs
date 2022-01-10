@@ -1,6 +1,7 @@
 #![deny(clippy::all)]
 
 use napi_derive::napi;
+use swc::Compiler;
 
 #[cfg(all(
   any(windows, unix),
@@ -15,3 +16,10 @@ static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
 pub fn plus_100(input: u32) -> u32 {
   input + 100
 }
+
+#[napi]
+pub fn swc_foo() {
+  let compiler = swc::Compiler::new(Default::default());
+  // panic!("{:?}", compiler);
+}
+
